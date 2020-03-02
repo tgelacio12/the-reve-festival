@@ -1,0 +1,93 @@
+/* Style(s) for navbar */
+
+.gt-navbar-button{
+	border:none;
+	display:inline-block;
+	padding:8px 16px;
+	vertical-align:middle;
+	overflow:hidden;
+	text-decoration:none;
+	color:inherit;
+	background-color:inherit;
+	text-align:center;
+	cursor:pointer;
+	white-space:nowrap
+}
+
+.gt-navbar-button:hover {
+    color:#E4287C!important;
+    background-color:#ffb3cc!important;
+    font-weight: bold;
+}
+
+.gt-navbar-shadow{
+    box-shadow:0 2px 5px 0 #FFC0CB
+}
+
+.gt-navbar-bg {
+    color:#fff!important;
+    background-color:#F778A1!important
+}
+
+.gt-light-pink {
+    color:#fff!important;
+    background-color:#ff6699!important
+}
+
+.gt-bold {
+    font-weight: bold;
+}
+
+.gt-album-notice {
+    color: #C12267; 
+    font-weight: bold;
+}
+
+.gt-heading {
+    color: #C12267;
+}
+
+.gt-font-size-smaller {
+    font-size: 0.95em;
+}
+
+a.gt-active {
+    color: #FFF;
+    background-color:#D95A83!important;
+    font-weight: bolder;
+}
+
+body {
+    font-family: "Spartan", sans-serif, "Times New Roman", Georgia, Serif;
+}
+        
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Spartan", sans-serif, "Playfair Display";
+    letter-spacing: 5px;
+}
+
+figcaption {
+	font-size: 0.9em;
+	text-align: center;
+    color: #C12267;
+    padding: 5px;
+}
+
+img:hover {
+    box-shadow: 0 4px 8px 0 rgba(255,0,255,0.3), 0 6px 20px 0 rgba(255,0,255,0.3);
+}
+
+.gt-footer { 
+	clear: both;
+	/*border-top: 1px solid #FFC0CB;*/
+	padding: 15px;
+    background-image: -webkit-linear-gradient((white, #FFC0CB));
+    background-image: -moz-linear-gradient(white, #FFC0CB);
+    background-image: -o-linear-gradient(white,#FFC0CB);
+    background-image: linear-gradient(white, #FFC0CB);
+} 
+.gt-footer p {
+	font-size: 90%;
+	text-align: center;
+	padding: 20px;
+}
